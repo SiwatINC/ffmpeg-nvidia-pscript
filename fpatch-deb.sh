@@ -13,8 +13,17 @@ PATH="$HOME/bin:$PATH" PKG_CONFIG_PATH="$HOME/ffmpeg_build/lib/pkgconfig" ./conf
   --extra-ldflags="-L$HOME/ffmpeg_build/lib" \
   --extra-libs="-lpthread -lm" \
   --bindir="$HOME/bin" \
-  --enable-gpl --disable-stripping --enable-avresample --enable-gnutls --enable-libass --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libmp3lame --enable-libopus --enable-libpulse --enable-libvorbis --enable-libvpx --enable-libx265 --enable-opengl --enable-sdl2 --enable-libdrm --enable-libx264 --enable-shared \
+  --enable-gpl \
+  --enable-gnutls \
+  --enable-libass \
   --enable-libfdk-aac \
+  --enable-libfreetype \
+  --enable-libmp3lame \
+  --enable-libopus \
+  --enable-libvorbis \
+  --enable-libvpx \
+  --enable-libx264 \
+  --enable-libx265 \
   --enable-nvenc \
   --enable-nonfree && \
 PATH="$HOME/bin:$PATH" make && \
