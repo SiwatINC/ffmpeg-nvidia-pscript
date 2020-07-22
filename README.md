@@ -1,1 +1,2 @@
-# ffmpeg-nvidia-pscript
+# ffmpeg NVIDIA patch script
+- VER. Debian [FAILED!]
