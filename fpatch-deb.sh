@@ -33,3 +33,4 @@ PATH="$HOME/bin:$PATH" make && \
 make install && \
 hash -r
 cp $HOME/bin/* /bin
+cp $HOME/bin/* /usr/bin
